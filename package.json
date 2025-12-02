@@ -1,13 +1,28 @@
 {
-  "name": "liuify-planning-tool-mvp-main",
+  "name": "liuify-planning-tool-mvp",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Liuify Planning & Scheduling Tool – MVP",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@radix-ui/react-dialog": "^1.1.1",
+    "tailwindcss": "^3.3.0",
+    "zustand": "^4.4.0",
+    "@supabase/supabase-js": "^2.38.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.2.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0"
+  }
 }
